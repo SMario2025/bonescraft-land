@@ -1,0 +1,27 @@
+# BonescraftLand
+
+# Default max claim size (in chunks). Example: 9 = 3x3
+max-claim-size: 9
+
+# =============================
+# Permissions
+# =============================
+# Assign these permissions to your ranks (LuckPerms/PowerRanks).
+
+permissions:
+  # Can do everything everywhere (Owner/Co-Owner/Admin)
+  bypass: "bonescraft.bypass"
+
+  # Can build/break everywhere without claiming land
+  build_anywhere: "bonescraft.build.anywhere"
+
+  # ---- Rings (global abilities) ----
+  # These are checked IN ADDITION to per-claim trust.
+  ring_build: "bonescraft.ring.build"              # Place blocks
+  ring_break: "bonescraft.ring.break"              # Break blocks
+  ring_chest_view: "bonescraft.ring.chest.view"    # Open/view OTHER players' containers
+  ring_chest_take: "bonescraft.ring.chest.take"    # Take items from OTHER players' containers
+
+  # Claim size overrides by permissions.
+  # Give players e.g. "bonescraft.claim.size.25" to allow up to 25 chunks.
+  claim_size_prefix: "bonescraft.claim.size."
